@@ -1,0 +1,542 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	background: #3D5A80;
+	height: 50px;
+	color: white;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+header h1 {
+	flex: 1;
+	text-align: center;
+	margin: 0px;
+	padding: 2px;
+}
+
+header img {
+	margin-left: 10px;
+	height: 40px;
+	object-fit: contain;
+}
+
+nav {
+	display: flex;
+	background: #3D5A80;
+	flex: 0.6;
+}
+
+nav a {
+	flex: 1;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	transition: font-size 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav a:hover {
+	font-size: 16px;
+	text-decoration: underline;
+	transition: width 0.3s ease;
+}
+
+/*nav bar end*/
+
+#MPh {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+#MPhI {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#overlay h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+#overlay h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+hr {
+	margin: 20px;
+	height: 1px;
+	padding: 0px;
+	background: #85C1E9;
+	border-width: 0px;
+}
+
+#Embeleshing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px auto;
+	padding: 20px;
+	width: 700px;
+	border-radius: 20px;
+	height: 400px;
+	background: #D3D3D3;
+	font-family: sans-serif;
+}
+
+#H1 {
+	margin: 0 0 10px 0;
+	font-size: 30px;
+	font-family: Bebas Neue;
+}
+
+#Embeleshing h3 {
+	margin: 5px 0 18px 0;
+	font-family: Bebas Neue;
+}
+
+#Embeleshing p {
+	font-size: 19px;
+	font-family: Poppins;
+	text-align: center;
+}
+
+#Inspired a img {
+	width: 64px;
+	float: left;
+	margin-right: 20px;
+}
+
+#Inspired {
+	width: 45%;
+}
+
+#Inspired h1 {
+	margin: 0px;
+	padding-top: 15px;
+	color: black;
+	font-family: Bebas Neue;
+}
+
+.SMAR {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15%;
+	padding: 10px;
+	background: #A8DADC;
+	border-radius: 10px;
+	color: white;
+}
+
+.SMAR h1 {
+	text-align: center;
+	width: 100%;
+	font-family: 'Bebas Neue';
+	margin: 6px;
+}
+
+.FB {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.FB h1 {
+	margin: 10px;
+}
+
+.OvR img {
+	width: 43%;
+	height: 200px;
+	object-fit: cover;
+	float: right;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.OvR p {
+	margin: 10px 0 0 10px;
+	padding: 0px;
+	border-radius: 10px;
+	float: left;
+	font-size: 14px;
+	font-family: 'Poppins';
+}
+
+/*Right style lol*/
+
+.SMAL {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15%;
+}
+
+.SMAL h1 {
+	text-align: center;
+}
+
+.OvL {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.OvL img {
+	flex: 0 0 auto;
+	height: 200px;
+	width: 43%;
+	object-fit: cover;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.OvL p {
+	font-size: 14px;
+	padding: 0 10px 10px 10px;
+	border-radius: 10px;
+	float: right;
+	font-family: 'Poppins';
+}
+
+.OvL h1 {
+	font-family: 'Bebas Neue';
+}
+
+/*left style*/
+
+/*footer*/
+
+footer {
+	background: #3D5A80;
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+}
+
+footer #Contacts a img {
+  margin-top: 10px;
+}
+
+footer #ARR a {
+	text-decoration: underline;
+	color: white;
+	font-size: 12px;
+}
+
+#forum form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center
+}
+
+#forum {
+	flex: 0.5;
+}
+
+form label {
+	margin: 10px;
+  font-size: 25px;
+  font-family: 'Bebas Neue';
+  background: #334B6B;
+  padding: 5px;
+}
+
+form button {
+	height: 35px;
+  margin: 5px;
+  font-family: 'Bebas Neue';
+  font-size: 19px;
+}
+
+.ET {
+	height: 30px;
+  width: 60%;
+  border-radius: 10px;
+  border: 0 solid;
+  margin: 3px;
+}
+
+#msg {
+	height: 111px;
+  width: 60%;
+  border-radius: 10px;
+  border: 0 solid;
+  margin: 3px;
+}
+
+#ARR {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#Contacts {
+	display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+
+#ARR h1 {
+	font-size: 14px;
+	flex: 0;
+	margin: 10px;
+}
+
+#Contacts a {
+	color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 5px;
+  align-items: center;
+  height: 70px;
+}
+
+.E1 {
+	height: 300px;
+}
+
+.E1 h1 {
+	float: right;
+}
+
+.E1 h3 {
+	float: right;
+	font-size: 17px;
+}
+
+.E1 p {
+	float: right;
+}
+
+#Inv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Inv {
+	font-family: 'Bebas Neue';
+}
+
+#SAs {
+	display: flex;
+	flex-direction: row;
+}
+
+.SAS {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.SAS h1 {
+	font-size: 'Bebas Neue';
+}
+
+.SAS p {
+	font-size: 'Poppins';
+	font-size: 14px;
+	padding: 9px;
+	font-family: sans-serif;
+}
+
+.SAS img {
+	width: 115px;
+	object-fit: cover;
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+}
+
+/*MAIN STYLIZATION DONE*/
+
+/*START OF MEDIA QUIERIES*/
+
+@media all and (min-width: 750px) {
+	.Fimg {
+		width: 40px;
+	}
+
+	#Inspired a img {
+		height: 64px;
+	}
+}
+
+@media all and (min-width: 300px) and (max-width: 750px) {
+	#Embeleshing {
+		width: 450px;
+	}
+
+	#Embeleshing p {
+		font-size: 14px;
+	}
+
+	#Inspired {
+		width: 75%;
+	}
+
+	.FB p {
+		font-size: 11px;
+	}
+
+	nav a {
+		font-size: 8px;
+	}
+
+	#ARR h1 {
+		font-size: 10px;
+	}
+
+	#AAR a {
+		font-size: 8px;
+	}
+
+	.Fimg {
+		width: 20px;
+	}
+
+	form label {
+		font-size: 14px;
+	}
+
+	.ET {
+		margin: 7px;
+	}
+
+	form button {
+		font-size: 10px;
+	}
+}
+
+@media all and (min-width: 300px) and (max-width: 600px) {
+	footer {
+		flex-direction: column;
+		height: fit-content;
+	}
+
+	#Contacts {
+		justify-content: center;
+	}
+
+	.FB {
+		font-size: 8px;
+	}
+
+	.SMAR h1 {
+		font-size: 14px;
+	}
+
+}
+
+@media all and (min-width: 300px) and (max-width: 500px) {
+
+	#overlay h1 {
+		font-size: 25px;
+	}
+
+	#overlay h3 {
+		font-size: 13px;
+	}
+
+	header h1 {
+		font-size: 21px;
+	}
+
+	nav a {
+		font-size: 5px;
+	}
+
+	#Embeleshing {
+		height: 400px;
+		width: 260px;
+	}
+
+	#H1 {
+		font-size: 19px;
+	}
+
+	#Embeleshing h3 {
+		font-size: 12px;
+	}
+
+	#Embeleshing p {
+		font-size: 10px;
+	}
+
+	#Inspired h1 {
+		font-size: 11px;
+	}
+
+	#Inspired a img {
+		width: 40px;
+	}
+
+	.OvR {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.OvL {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.SMAR img {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 300px) and (max-width: 380px) {
+	nav a {
+		font-size: 4px;
+	}
+}
