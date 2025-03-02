@@ -361,7 +361,7 @@ form button {
 
 #SAs {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .SAS {
@@ -490,7 +490,7 @@ form button {
 	}
 
 	nav a {
-		font-size: 5px;
+		font-size: 8px;
 	}
 
 	#Embeleshing {
